@@ -4,4 +4,12 @@
   </mat-toolbar>
 </header>
 <main>
+  <mat-card>
+    <mat-card-title>People</mat-card-title>
+    <mat-card-content>
+      <people-table [people]="people"
+                    (personSelected)="doSomething($event)">
+      </people-table>
+    </mat-card-content>
+  </mat-card>
 </main>
