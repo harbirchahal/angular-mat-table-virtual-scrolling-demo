@@ -7,9 +7,9 @@
   <mat-card>
     <mat-card-title>People</mat-card-title>
     <mat-card-content>
-      <people-table [people]="people"
-                    (personSelected)="doSomething($event)">
-      </people-table>
+      <people-viewport [people]="people"
+                      (personSelected)="doSomething($event)">
+      </people-viewport>
     </mat-card-content>
   </mat-card>
 </main>

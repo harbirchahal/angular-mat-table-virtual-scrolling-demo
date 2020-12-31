@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { MaterialModule } from './shared';
-import { PeopleTableComponent } from './components';
+import { PeopleTableComponent, PeopleViewportComponent } from './components';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -18,6 +18,7 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent,
     PeopleTableComponent,
+    PeopleViewportComponent,
   ],
   bootstrap: [AppComponent]
 })

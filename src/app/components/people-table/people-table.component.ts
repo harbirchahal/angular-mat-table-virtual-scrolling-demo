@@ -1,4 +1,5 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';import { MatTableDataSource } from '@angular/material';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { MatTableDataSource } from '@angular/material';
 
 import { Person } from '../../models';
 
@@ -20,4 +21,5 @@ export class PeopleTableComponent implements OnInit {
 
   ngOnInit() {
   }
+
 }
