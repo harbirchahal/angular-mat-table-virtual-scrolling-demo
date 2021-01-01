@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { MaterialModule } from './shared';
+import { MaterialModule, TableScrollingViewportModule } from './shared';
 import { PeopleTableComponent, PeopleViewportComponent } from './components';
 import { AppComponent } from './app.component';
 
@@ -14,6 +14,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     ReactiveFormsModule,
     MaterialModule,
+    TableScrollingViewportModule,
   ],
   declarations: [
     AppComponent,

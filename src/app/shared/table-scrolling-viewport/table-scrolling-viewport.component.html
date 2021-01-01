@@ -1,0 +1,4 @@
+<cdk-virtual-scroll-viewport [itemSize]="itemSize">
+  <ng-container *cdkVirtualFor="let item of virtualItems"></ng-container>
+  <ng-content></ng-content>
+</cdk-virtual-scroll-viewport>
