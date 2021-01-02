@@ -1,7 +1,0 @@
-<table-scrolling-viewport itemSize="50"
-                          [totalItems]="people.length"
-                          (itemsRangeChange)="updatePeopleSlice($event)">
-  <people-table [people]="peopleSlice"
-                (personSelected)="personSelected.emit($event)">
-  </people-table>
-</table-scrolling-viewport>
